@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>INSANE TRAIN</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+  <header class="row justify-content-center">
+    <div id="headlybox" class="col-8">
+      <h1>Train Brain</h1>
+      <h6>Insane in the Big Train</h6>
+    </div>
+  </header><br><br>
+  
+  <div class="row justify-content-center">
+    <div class="col-8 dbluebox">
+        <p id="scheduleTitle">Current Insane Train Schedule</p>
+        <div class="whitebox">
+          <table id="table-body" class="table table-sm">
+            <thead>
+              <tr>
+                  <th>Insane Train Name</th>
+                  <th>Final Destination</th>
+                  <th>Ken's Frequency (min)</th>
+                  <th>Here it Come!</th>
+                  <th>This many away</th>
+                  <!-- <th>Update</th> -->
+                  <th>Torpedo</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+    </div>
+  </div><br>
+
+  <div class="row justify-content-center">
+      <div id="formbox" class="col-8 dbluebox">
+          <p id="scheduleTitle">Add Insane Train</p>
+          <form id="formpad" class="whitebox" role="form">
+              <div class="form-group row">
+                <label for="name-input">Insane Train Name</label>
+                <input class="form-control" id="name-input" type="text">
+              </div>
+              <div class="form-group row">
+                <label for="email-input">Final Destination</label>
+                <input class="form-control" id="dest-input" type="text">
+              </div>
+              <div class="form-group row">
+                <label for="age-input">First Insane Train Time (HH:mm - military time)</label>
+                <input class="form-control" id="time-input" type="text">
+              </div>
+              <div class="form-group row">
+                <label for="comment-input">Ken's Frequency (min)</label>
+                <input class="form-control" id="freq-input" type="text">
+              </div>
+              <button class="btn btn-default" id="add-train" type="submit">Submit</button>
+            </form>
+      </div>
+  </div>
+
+
+  <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+  <script src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>

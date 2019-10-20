@@ -1,0 +1,64 @@
+h1, h6 {
+    font-family: "helvetica";
+    text-align: center;
+    color: yellowgreen;
+}
+
+body {
+    font-family: "helvetica";
+    background-color: white;
+}
+
+#headlybox {
+    background-color:black;
+    margin-top: 10px;
+    padding: 30px 0 30px 0;
+    border-radius: 5px;
+}
+
+.dbluebox {
+    align-content: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: darkblue;
+    background-color:darkblue;
+    border-radius: 5px;
+}
+
+#scheduleTitle {
+    background-color: darkblue;
+    color: white;
+    width: auto;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.whitebox {
+    background-color: white;
+}
+
+input[type="text"] {
+    background-color: white;
+    border: solid grey;
+}
+
+form {
+    padding: 10px 40px 0 40px;
+}
+
+#formbox {
+    border-bottom-width: 16px;
+}
+
+#formpad {
+    padding-bottom: 18px;
+}
+
+button {
+    background-color: darkblue;
+    color: white;
+}
+
+label {
+    font-weight: bolder;
+}
